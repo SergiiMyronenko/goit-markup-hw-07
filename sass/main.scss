@@ -1,45 +1,41 @@
-// Variables
+// variables
+@import './utils/vars';
 
-@import './utils/variables';
+//tag styles
 
-// Util visually-hidden
+@import './utils/tagstyles';
+
+//container
+
+@import './utils/container';
+
+//visually-hidden
 
 @import './utils/visuallyhidden';
 
-
-// Base styles
-@import './base/base';
-
-// Container to center out content
-
-@import './components/container';
-
-// HEADER
-
+//header
 @import './components/header';
 
-// Navigation and contacts (email & phone) in header
+//navigation & contacts in header
+@import './components/nav';
 
-@import './components/navigation';
-
-// LOGO (two options: 1) for header; 2) for footer
-
-
+//logo
 @import './components/logo';
 
-// hero
-
+//hero
 @import './components/hero';
 
-// BUTTONS
-
+//buttons
 @import './components/buttons';
 
+//sections 
+@import './components/sections';
+
 // footer
+@import './components/footer';
 
-@import './layout/footer';
-
+//backdrop for modal window
 @import './components/backdrop';
 
-
-@import './layout/modal';
+//modal window
+@import './components/modal-window';

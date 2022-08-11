@@ -11,6 +11,10 @@
     align-items: baseline;
 }
 
+.footer__logo {
+    padding-bottom: 20px;
+}
+
 .footer__message {
     display: block;
     margin-bottom: 20px;
@@ -19,7 +23,6 @@
     text-transform: uppercase;
     color: var(--primary-background-color);
 }
-
 
 .footer__address {
     font-style: normal;
@@ -40,6 +43,8 @@
 .footer__location:focus {
     color: var(--primary-accent-color)
 }
+
+
 
 .footer__email-phone {
     color: var(--secondary-accent-color);

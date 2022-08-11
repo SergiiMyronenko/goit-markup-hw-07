@@ -31,4 +31,66 @@
     background-color: var(--active-button);
 }
 
+.button__text {
+    margin-right: 10px;
+}
 
+
+// BUTTON IN PORTFOLIO-FILTER
+
+.portfolio-button {
+
+    padding: 4px 20px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    color: var(--primary-text-color);
+    background-color: var(--portfolio-button-background-color);
+
+    transition-property: color, box-shadow, background-color;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--timing-fun);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: var(--primary-background-color);
+    background-color: var(--primary-accent-color);
+    box-shadow:
+        0 2px 2px 0 rgba(0, 0, 0, 0.12),
+        0 1px 2px 0 rgba(0, 0, 0, 0.08),
+        0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+//BUTTON CLOSING MODAL WINDOW
+
+ .close-btn {
+     position: absolute;
+     top: 8px;
+     right: 8px;
+     width: 30px;
+     height: 30px;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     border-radius: 50%;
+
+     background-color: transparent;
+     fill: black;
+
+     transition: fill 250ms var(--timing-fun);
+
+ }
+
+ .close-btn:hover,
+ .close-btn:focus {
+     fill: var(--primary-accent-color);
+ }
