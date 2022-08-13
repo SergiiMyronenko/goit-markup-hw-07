@@ -1,4 +1,3 @@
-
 body {
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -7,31 +6,4 @@ body {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
     background-color: var(--primary-background-color);
-}
-
-h1,
-h2,
-h3,
-p,
-ul {
-    margin: 0;
-    padding: 0;
-
-}
-
-ul {
-    list-style: none;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-
-}
-
-a {
-    text-decoration: none;
-    color: currentColor;
-
 }

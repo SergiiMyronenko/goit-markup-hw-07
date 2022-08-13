@@ -227,7 +227,7 @@ transition: background-color 250ms var(--timing-fun);
     padding-bottom: 94px;
 }
 
-.section__card-set {
+.card-set {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -326,7 +326,7 @@ background-color: rgba(47, 48, 58, 0.8);
 
 /* OUR TEAM */
 /* 
-.section--team {
+.team {
     background-color: var(--portfolio-button-background-color);
 }
  */
@@ -608,7 +608,7 @@ flex-basis: calc((100% - 60px) / 3);
 }
 
 
-.section__card-img {
+.portfolio__img {
     position: relative;
     overflow: hidden;
  }
@@ -639,7 +639,7 @@ flex-basis: calc((100% - 60px) / 3);
     
  }
 
-.section__link-portfolio:hover .section__overlay-portfolio,
+.section__link-portfolio:hover .portfolio__overlay,
 .section__link-portfolio:focus .section__overlay-portfolio {
     opacity: 1;
     transform: translateY(0);
